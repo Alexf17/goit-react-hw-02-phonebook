@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const ContactsUl = styled.ul`
+export const Ul = styled.ul`
   margin-top: 30px;
 `;

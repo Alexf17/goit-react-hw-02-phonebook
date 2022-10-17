@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const ContactItem = styled.li`
+export const Item = styled.li`
   display: flex;
   align-items: center;
+  justify-content: space-around;
   &:not(:last-child) {
     margin-bottom: 15px;
   }
@@ -22,7 +23,7 @@ export const Number = styled.p`
   margin-right: 20px;
 `;
 
-export const ButtonDelete = styled.button`
+export const Button = styled.button`
   margin: 0;
   padding: 0;
   cursor: pointer;
@@ -30,7 +31,6 @@ export const ButtonDelete = styled.button`
   font-size: 15px;
   width: 100px;
   height: 30px;
-  margin: 0 auto;
   border-radius: 5px;
   background-color: white;
   border: 1px solid black;
